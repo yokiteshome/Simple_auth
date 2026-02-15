@@ -1,8 +1,10 @@
+# Simple_auth
+
 # Simple Authentication System
 
 A comprehensive, full-stack authentication starter kit built with Node.js, Express, MongoDB, and React (Vite + TypeScript). This project provides a robust foundation for handling user registration, login, password recovery, and admin setup with a modern UI.
 
-## 🚀 Features
+## Features
 
 - **Robust Backend**: Node.js/Express API with JWT-based authentication.
 - **Secure Storage**: Password hashing using `bcrypt`.
@@ -12,15 +14,6 @@ A comprehensive, full-stack authentication starter kit built with Node.js, Expre
 - **Theming & Localization**: Integrated theme (Dark/Light) and language context.
 - **UI/UX**: Smooth animations with Framer Motion and GSAP, styled with Tailwind CSS 4.
 - **Admin Setup**: Initial admin user configuration flow.
-
-## 🧹 Recent Cleanup
-
-The project has been recently optimized and cleaned:
-
-- **Redundancy Removal**: Removed unused SVG assets, redundant lockfiles, and unnecessary utility scripts.
-- **Backend Optimization**: Refactored the password reset flow to be fully handled by the React frontend, removing redundant backend views.
-- **Code Hygiene**: Removed unnecessary directives and debug logs across both frontend and backend.
-- **UI Streamlining**: Removed the `Footer` component to simplify the user interface.
 
 ## 🛠 Tech Stack
 
@@ -42,7 +35,7 @@ The project has been recently optimized and cleaned:
 
 ---
 
-## 📦 How to Use This Project
+## How to Use This Project
 
 Follow these steps to integrate this authentication system into your own projects.
 
@@ -106,7 +99,7 @@ The application should now be running at `http://localhost:5173` and the API at 
 
 ---
 
-## 🔑 Key API Endpoints
+## Key API Endpoints
 
 | Method | Endpoint                    | Description                        |
 | :----- | :-------------------------- | :--------------------------------- |
@@ -122,7 +115,7 @@ The application should now be running at `http://localhost:5173` and the API at 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `backend/`: Node.js/Express backend.
   - `index.js`: Main entry point.
@@ -136,10 +129,10 @@ The application should now be running at `http://localhost:5173` and the API at 
   - `src/pages/`: Main application views (Login, Register, Profile, etc.).
   - `src/components/`: Reusable UI elements (Layout & UI components).
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
